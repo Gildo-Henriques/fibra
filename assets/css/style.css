@@ -5,16 +5,16 @@
 }
 @font-face {
   font-family: 'ClashGrotesk';
-  src: url('/fonts/ClashGrotesk-Regular.woff2') format('woff2'), 
-  url('/fonts/ClashGrotesk-Regular.woff') format('woff');
+  src: url('./fonts/ClashGrotesk-Regular.woff2') format('woff2'), 
+  url('./fonts/ClashGrotesk-Regular.woff') format('woff');
   font-weight: 900;
   font-size: normal;
 
 }
 @font-face {
   font-family: 'ClashGrotesk';
-  src: url('/fonts/ClashGrotesk-Bold.woff2') format('woff2'), 
-  url('/fonts/ClashGrotesk-Bold.woff') format('woff');
+  src: url('./fonts/ClashGrotesk-Bold.woff2') format('woff2'), 
+  url('./fonts/ClashGrotesk-Bold.woff') format('woff');
   font-weight: 400;
   font-size: normal;
 
@@ -745,6 +745,7 @@ h1, h2, h3{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: black;
 }
 
 .faq-question:hover {
